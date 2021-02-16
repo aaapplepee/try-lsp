@@ -36,6 +36,7 @@
     cursor: pointer;
 }
 
+
 /* Hero */
 .hero-section{
     display: flex;
@@ -66,4 +67,47 @@
 
 .hero-section .hero-image img{
     justify-content: flex-end;
+}
+
+/* Login */
+/* Login */
+.section-login{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+
+.section-form .kotak_login .tulisan_login{
+    margin-bottom: 2rem;
+}
+
+label{
+    font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #6C63FF;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
 }

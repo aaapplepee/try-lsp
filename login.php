@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -24,20 +24,17 @@
     <!-- End Navbar -->
 
     <!-- Section Form Login  -->
-    <section class="section-login">
+        <section class="section-login">
         <div class="login-image">
-            <img src="assets/image/register.png" alt="" height="500px">
+            <img src="assets/image/login.png" alt="" height="500px">
         </div>
 
         <div class="section-form">
             <div class="kotak_login">
-                <h1 class="tulisan_login">Create Account!</h1>
+                <h1 class="tulisan_login">Silahkan Login!</h1>
 
                 <form action="" method="post">
-                    <label for="nama">Nama</label>
-                    <input type="text" name="nama" id="nama" class="form_login" placeholder="Your Name ..">
-
-                    <label for="username">Username</label>
+                <label for="username">Username</label>
                     <input type="text" name="username" id="username" class="form_login" placeholder="Username ..">
 
                     <label for="password">Password</label>

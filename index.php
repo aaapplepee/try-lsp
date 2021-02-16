@@ -14,9 +14,9 @@
             <h3>Pengaduan Masyarakat</h3>
         </div>
         <div class="nav-list">
-                <a href="#" class="nav-item">Home</a>
-                <a href="#" class="nav-item">Register</a>
-                <a href="#" class="nav-item">Login</a>
+                <a href="index.php" class="nav-item">Home</a>
+                <a href="register.php" class="nav-item">Register</a>
+                <a href="login.php" class="nav-item">Login</a>
         </div>
     </header>
     <!-- End Navbar -->
